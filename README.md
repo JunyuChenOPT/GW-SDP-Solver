@@ -31,7 +31,6 @@ are introduced.
 ```text
 gw_sdp/src/                    solver wrapper and model-building helpers
 gw_sdp/tests/                  MATLAB unit tests
-gw_sdp/run_demo_tiny_gaussian.m tight small Gaussian demo
 gw_sdp/run_demo_gaussian.m     2D-vs-3D Gaussian point-cloud demo
 gw_sdp/README.md               formulation and validation details
 ```
@@ -59,7 +58,6 @@ From the RiNNAL+ repository root in MATLAB:
 setup_path
 addpath(genpath('gw_sdp'))
 runtests('gw_sdp/tests')
-run('gw_sdp/run_demo_tiny_gaussian.m')
 run('gw_sdp/run_demo_gaussian.m')
 ```
 
@@ -108,5 +106,5 @@ The returned `sol` structure includes:
 - `sol.rank_lift` and `sol.rank_gap`
 - marginal and RLT feasibility diagnostics in `sol.diagnostics`
 
-For tight tiny Gaussian instances, `approx_ratio_upper` should be close to 1
-and `rank_gap` should be close to 0.
+For tight instances, `approx_ratio_upper` should be close to 1 and `rank_gap`
+should be close to 0.
