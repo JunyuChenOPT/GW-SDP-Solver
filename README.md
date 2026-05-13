@@ -31,7 +31,6 @@ are introduced.
 ```text
 gw_sdp/src/                    solver wrapper and model-building helpers
 gw_sdp/tests/                  MATLAB unit tests
-gw_sdp/run_demo_tiny.m         two-point sanity demo
 gw_sdp/run_demo_tiny_gaussian.m tight small Gaussian demo
 gw_sdp/run_demo_gaussian.m     2D-vs-3D Gaussian point-cloud demo
 gw_sdp/README.md               formulation and validation details

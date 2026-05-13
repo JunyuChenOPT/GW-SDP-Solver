@@ -88,7 +88,6 @@ Run from the RiNNAL+ repository root:
 setup_path
 addpath(genpath('gw_sdp'))
 runtests('gw_sdp/tests')
-run('gw_sdp/run_demo_tiny.m')
 run('gw_sdp/run_demo_tiny_gaussian.m')
 run('gw_sdp/run_demo_gaussian.m')
 ```
