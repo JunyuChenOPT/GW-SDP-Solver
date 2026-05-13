@@ -1,0 +1,14 @@
+.DS_Store
+*.asv
+*.m~
+*.mat
+*.csv
+*.png
+*.fig
+*.log
+*.tmp
+__pycache__/
+*.pyc
+gw_sdp/experiments/
+gw_sdp/experiments/results/
+results/
